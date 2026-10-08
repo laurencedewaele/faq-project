@@ -42,7 +42,6 @@
                            "Comment je peux vous rejoindre ?",
                            "Je fais comment pour m’inscrire ?",
                            "Comment devenir membre de l'association ?",
-                           "Où est-ce que je peux candidater ?",
                            "Quelles sont les étapes pour vous rejoindre ?"
                        ],
         "response":  "Tu peux soit t'inscrire, soit commencer ta candidature depuis le bouton « Inscription » du site. Tu renseigneras ton profil, tes compétences et les domaines qui t’intéressent afin que l’équipe puisse étudier ta candidature.",
@@ -116,7 +115,7 @@
         "id":  "got_faq_008",
         "source_id":  8,
         "category":  "Comprendre l'association",
-        "intent_key":  "combien_de_temps_faut_il_consacrer_a_l_association",
+        "intent_key":  "combien_de_temps_faut_il_consacrer_a_lassociation",
         "canonical_question":  "Combien de temps faut-il consacrer à l’association ?",
         "utterances":  [
                            "Il faut prévoir combien d’heures par semaine ?",
@@ -927,7 +926,7 @@
         "id":  "got_faq_059",
         "source_id":  59,
         "category":  "Apprentissage",
-        "intent_key":  "quelle_difference_y_a_t_il_entre_got_et_une_ecole_ou_une_formation",
+        "intent_key":  "quelle_difference_y_a_t_il_entre_lassociation_et_une_ecole_ou_une_formation",
         "canonical_question":  "Quelle différence y a-t-il entre l'association et une école ou une formation ?",
         "utterances":  [
                            "En quoi l'association est différent d’une école ?",
@@ -943,7 +942,7 @@
         "id":  "got_faq_060",
         "source_id":  60,
         "category":  "Apprentissage",
-        "intent_key":  "est_ce_que_got_learn_est_deja_disponible",
+        "intent_key":  "est_ce_que_lassociation_learn_est_deja_disponible",
         "canonical_question":  "Est-ce que l'association-Learn est déjà disponible ?",
         "utterances":  [
                            "l'association-Learn est ouvert ?",
@@ -959,7 +958,7 @@
         "id":  "got_faq_061",
         "source_id":  61,
         "category":  "Apprentissage",
-        "intent_key":  "que_proposera_got_learn",
+        "intent_key":  "que_proposera_lassociation_learn",
         "canonical_question":  "Que proposera l'association-Learn ?",
         "utterances":  [
                            "l'association-Learn va servir à quoi ?",
@@ -991,7 +990,7 @@
         "id":  "got_faq_063",
         "source_id":  63,
         "category":  "Insertion professionnelle",
-        "intent_key":  "est_ce_que_got_fournit_une_attestation_de_benevolat",
+        "intent_key":  "est_ce_que_lassociation_fournit_une_attestation_de_benevolat",
         "canonical_question":  "Est-ce que l'association fournit une attestation de bénévolat ?",
         "utterances":  [
                            "Est-ce que vous donnez une attestation ?",
@@ -1023,7 +1022,7 @@
         "id":  "got_faq_065",
         "source_id":  65,
         "category":  "Insertion professionnelle",
-        "intent_key":  "est_ce_que_got_met_les_membres_en_relation_avec_des_entreprises",
+        "intent_key":  "est_ce_que_lassociation_met_les_membres_en_relation_avec_des_entreprises",
         "canonical_question":  "Est-ce que l'association met les membres en relation avec des entreprises ?",
         "utterances":  [
                            "Vous avez des entreprises partenaires ?",
@@ -1215,7 +1214,7 @@
         "id":  "got_faq_077",
         "source_id":  77,
         "category":  "Juridique et données",
-        "intent_key":  "quelle_est_l_adresse_de_l_association",
+        "intent_key":  "quelle_est_l_adresse_de_lassociation",
         "canonical_question":  "Quelle est l’adresse de l’association ?",
         "utterances":  [
                            "Où est situé le siège de l'association ?",
@@ -1231,7 +1230,7 @@
         "id":  "got_faq_078",
         "source_id":  78,
         "category":  "Juridique et données",
-        "intent_key":  "quels_sont_les_reseaux_officiels_de_got",
+        "intent_key":  "quels_sont_les_reseaux_officiels_de_lassociation",
         "canonical_question":  "Quels sont les réseaux officiels de l'association ?",
         "utterances":  [
                            "Vous êtes sur quels réseaux sociaux ?",
