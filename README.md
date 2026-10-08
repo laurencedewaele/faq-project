@@ -84,19 +84,7 @@ Atelier qui permet de **mesurer et d'améliorer** la qualité du moteur sans le 
 
 Base URL : **https://loren-faq-backend-api.hf.space**
 
-| Usage | URL |
-|---|---|
-| Documentation interactive (Swagger) | https://loren-faq-backend-api.hf.space/docs |
-| Poser une question (`POST`) | https://loren-faq-backend-api.hf.space/ask |
-| Santé du service | https://loren-faq-backend-api.hf.space/health |
-| Configuration courante | https://loren-faq-backend-api.hf.space/config |
-| FAQ complète | https://loren-faq-backend-api.hf.space/list |
-
-```bash
-curl -X POST "https://loren-faq-backend-api.hf.space/ask" \
-  -H "Content-Type: application/json" \
-  -d '{"question": "Comment je deviens membre de l'association ?"}'
-```
+Documentation interactive (Swagger) : https://loren-faq-backend-api.hf.space/docs
 
 Les seuils (`similarity_threshold`, `top_k`, `cross_encodeur_gap_threshold`, `cross_encodeur_confidence_threshold`) peuvent être ajoutés au corps de la requête pour surcharger les valeurs par défaut.
 
@@ -106,23 +94,78 @@ Les seuils (`similarity_threshold`, `top_k`, `cross_encodeur_gap_threshold`, `cr
 
 URL de l'application : **https://huggingface.co/spaces/Loren/faq-frontend**
 
-Pour la lancer en local, en pointant sur l'API déployée :
-
-```bash
-cd faq-frontend
-pip install -r requirements.txt
-python app.py
-```
 
 ### Tuning et évaluation (en local)
 
+Les scripts de `faq-tuning` s'exécutent en local et réutilisent le code de `faq-backend-api` (dossier voisin) : les deux dossiers doivent donc rester côte à côte.
+
+**Prérequis** : Python 3.12. Les commandes ci-dessous sont données pour Git Bash sous Windows.
+
+#### 1. Installation
+
 ```bash
-cd faq-tuning
-pip install -r requirements.txt
-python tune.py --n-trials 50          # optimisation Optuna
-mlflow ui --backend-store-uri ./mlruns  # résultats sur http://localhost:5000
-python langsmith_evaluate.py          # évaluation LangSmith (clé API requise, voir .env.example)
+# Se placer dans le dossier de tuning
+cd "faq-project/faq-tuning"
+
+# Vérifier que Python 3.12 est disponible (lanceur py)
+py -0p
+py -3.12 --version
+
+# Créer puis activer l'environnement virtuel
+py -3.12 -m venv .venv
+source .venv/Scripts/activate
+
+# Mettre pip à jour et installer les dépendances
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 ```
+
+#### 2. Configuration (évaluation LangSmith uniquement)
+
+Copier `.env.example` en `.env` et renseigner les variables LangSmith :
+
+| Variable | Rôle |
+|---|---|
+| `LANGSMITH_API_KEY` | clé API (LangSmith > Settings > API Keys) |
+| `LANGSMITH_ENDPOINT` | endpoint EU par défaut ; à commenter si le compte est en région US |
+| `LANGSMITH_PROJECT` | projet de tracing (surchargeable avec `--project`) |
+
+Le tuning Optuna / MLflow n'a pas besoin de ce fichier.
+
+#### 3. Optimiser les réglages (Optuna + MLflow)
+
+```bash
+python tune.py --n-trials 50
+```
+
+Le script charge la FAQ et les modèles comme l'API, puis teste 50 combinaisons de seuils sur le jeu de questions annotées (`data/dataset.csv`). Chaque essai est enregistré dans `mlruns/`.
+
+Pour explorer les résultats (paramètres, taux de bonnes réponses, importance des paramètres), lancer l'interface MLflow depuis `faq-tuning` :
+
+```bash
+mlflow ui --backend-store-uri file:mlruns
+```
+
+puis ouvrir http://127.0.0.1:5000.
+
+Options utiles : `--seed`, `--study-name`, `--mlflow-experiment`, ainsi que les plages explorées `--similarity-threshold-range`, `--top-k-range`, `--gap-threshold-range` et `--confidence-threshold-range` (deux valeurs min max chacune).
+
+#### 4. Évaluer une configuration (LangSmith)
+
+```bash
+python langsmith_evaluate.py --recreate-dataset \
+  --similarity-threshold 0.85 --top-k 3 \
+  --gap-threshold 0.1 --confidence-threshold 0.6
+```
+
+Le script rejoue la configuration choisie sur le dataset de référence et envoie les résultats dans LangSmith, où il est possible de comparer plusieurs configurations sur les mêmes exemples. `--recreate-dataset` recrée le dataset LangSmith à partir de `data/dataset.csv` ; on peut l'omettre aux exécutions suivantes pour réutiliser le dataset existant.
+
+#### 5. Terminer
+
+```bash
+deactivate
+```
+
 
 ## Stack technique
 
