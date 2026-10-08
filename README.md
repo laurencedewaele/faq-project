@@ -1,6 +1,6 @@
 # FAQ — Assistant de recherche sémantique dans une FAQ
 
-Un assistant qui comprend les questions posées en langage naturel (et dans plusieurs langues) et retrouve la réponse la plus pertinente dans la FAQ de la Guild Open Tech. Lorsqu'il n'est pas assez sûr de lui, il préfère **s'abstenir** ou proposer plusieurs pistes plutôt que de donner une mauvaise réponse.
+Un assistant qui comprend les questions posées en langage naturel (et dans plusieurs langues) et retrouve la réponse la plus pertinente dans une FAQ. Lorsqu'il n'est pas assez sûr de lui, il préfère **s'abstenir** ou proposer plusieurs pistes plutôt que de donner une mauvaise réponse.
 
 Le projet couvre toute la chaîne : un moteur de recherche exposé via une API, une interface de test pour les utilisateurs, et un outillage d'optimisation et d'évaluation pour mesurer et améliorer la qualité des réponses.
 
