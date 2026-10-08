@@ -1,0 +1,1428 @@
+{
+  "intents":  [
+    {
+        "id":  "got_faq_001",
+        "source_id":  1,
+        "category":  "Comprendre l'association",
+        "intent_key":  "qu_est_ce_que_lassociation",
+        "canonical_question":  "Qu’est-ce que l'association ?",
+        "utterances":  [
+                           "C’est quoi l'association ?",
+                           "Comment ça marche ?",
+                           "l'association, c’est quoi au juste ?",
+                           "À quoi sert votre association ?",
+                           "Tu peux m’expliquer ce qu’est l'association ?"
+                       ],
+        "response":  "L'association permet de développer et de partager des compétences utilisables dans le milieu informatique, en développement, gestion de projet, ou RH. Tu participes bénévolement à des projets collaboratifs et open source. Chez l'association, on apprend principalement en faisant, avec d’autres personnes qui ont des expériences et des niveaux différents.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_002",
+        "source_id":  2,
+        "category":  "Comprendre l'association",
+        "intent_key":  "est_ce_que_c_est_gratuit",
+        "canonical_question":  "Est-ce que c’est gratuit ?",
+        "utterances":  [
+                           "C’est vraiment gratuit ?",
+                           "Il faut payer pour participer ?",
+                           "L’adhésion est payante ?",
+                           "Ça coûte combien de rejoindre l'association ?",
+                           "Il y a une cotisation ou pas ?"
+                       ],
+        "response":  "L’adhésion et la participation aux projets de l'association sont gratuites. Il n’y a ni frais de formation ni cotisation obligatoire pour contribuer aux projets.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_003",
+        "source_id":  3,
+        "category":  "Comprendre l'association",
+        "intent_key":  "comment_rejoindre_lassociation",
+        "canonical_question":  "Comment rejoindre l'association ?",
+        "utterances":  [
+                           "Comment je peux vous rejoindre ?",
+                           "Je fais comment pour m’inscrire ?",
+                           "Comment devenir membre de l'association ?",
+                           "Où est-ce que je peux candidater ?",
+                           "Quelles sont les étapes pour vous rejoindre ?"
+                       ],
+        "response":  "Tu peux soit t'inscrire, soit commencer ta candidature depuis le bouton « Inscription » du site. Tu renseigneras ton profil, tes compétences et les domaines qui t’intéressent afin que l’équipe puisse étudier ta candidature.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_004",
+        "source_id":  4,
+        "category":  "Comprendre l'association",
+        "intent_key":  "comment_candidater_a_un_projet",
+        "canonical_question":  "Comment candidater à un projet ?",
+        "utterances":  [
+                           "Comment postuler sur un projet ?",
+                           "Je fais comment pour rejoindre une équipe ?",
+                           "Où est-ce que je peux candidater ?",
+                           "Comment proposer ma candidature pour un projet ?",
+                           "Je voudrais participer à un projet, comment faire ?"
+                       ],
+        "response":  "La candidature se fait en ligne depuis le bouton « Inscription». Le service RH va te contacter pour enregistrer ton profil dans BEN, notre ERP. Puis l’équipe regarde notamment tes compétences, ce que tu souhaites développer et les besoins des projets en cours.  Dans tous les cas tu vas t'inscrire sur notre serveur Discord.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_005",
+        "source_id":  5,
+        "category":  "Comprendre l'association",
+        "intent_key":  "est_ce_que_je_dois_deja_etre_developpeur_ou_travailler_dans_l_informatique",
+        "canonical_question":  "Est-ce que je dois déjà être développeur ou travailler dans l’informatique ?",
+        "utterances":  [
+                           "Il faut forcément être développeur ?",
+                           "Vous prenez seulement des profils tech ?",
+                           "Je ne travaille pas dans l’informatique, je peux quand même participer ?",
+                           "Il faut déjà avoir un métier dans la tech ?",
+                           "Les profils non-développeurs peuvent vous rejoindre ?"
+                       ],
+        "response":  "Les projets informatiques ont besoin de profils développeurs mais aussi UX/UI, produit, gestion de projet, communication, marketing ou création de contenus, RH, juridique ou administratif. Tu dois surtout pouvoir apporter une compétence utile au projet ou avoir des bases suffisantes pour y contribuer sérieusement.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_006",
+        "source_id":  6,
+        "category":  "Comprendre l'association",
+        "intent_key":  "les_profils_non_techniques_sont_ils_acceptes",
+        "canonical_question":  "Les profils non techniques sont-ils acceptés ?",
+        "utterances":  [
+                           "Vous recrutez aussi des profils non-tech ?",
+                           "Est-ce qu’il y a des missions en RH ou communication ?",
+                           "Je ne code pas, est-ce que je peux quand même contribuer ?",
+                           "Vous avez besoin de profils produit, UX ou gestion de projet ?",
+                           "Les fonctions support peuvent rejoindre l'association ?"
+                       ],
+        "response":  "Les projets informatiques ont besoin de profils développeurs mais aussi UX/UI, produit, gestion de projet, communication, marketing ou création de contenus, RH, juridique ou administratif. Tu dois surtout pouvoir apporter une compétence utile au projet ou avoir des bases suffisantes pour y contribuer sérieusement.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_007",
+        "source_id":  7,
+        "category":  "Comprendre l'association",
+        "intent_key":  "est_ce_que_les_debutants_sont_acceptes",
+        "canonical_question":  "Est-ce que les débutants sont acceptés ?",
+        "utterances":  [
+                           "Vous acceptez les débutants ?",
+                           "Je débute, est-ce que je peux quand même venir ?",
+                           "Il faut déjà avoir un bon niveau ?",
+                           "C’est ouvert aux juniors ?",
+                           "Je n’ai pas beaucoup d’expérience, ma candidature peut être acceptée ?"
+                       ],
+        "response":  "Tous les niveaux sont acceptés, l'association permet justement de progresser en travaillant sur des projets concrets, mais ce n’est pas un cours où quelqu’un réalise le travail à ta place. Il faut donc être prêt à chercher, essayer et collaborer au rythme du projet.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_008",
+        "source_id":  8,
+        "category":  "Comprendre l'association",
+        "intent_key":  "combien_de_temps_faut_il_consacrer_a_l_association",
+        "canonical_question":  "Combien de temps faut-il consacrer à l’association ?",
+        "utterances":  [
+                           "Il faut prévoir combien d’heures par semaine ?",
+                           "Ça prend combien de temps de participer ?",
+                           "Quel temps faut-il donner à l'association ?",
+                           "Vous demandez combien de disponibilité ?",
+                           "Il faut être disponible combien de temps ?"
+                       ],
+        "response":  "Le temps nécessaire dépend du projet, du rôle et des engagements pris avec l’équipe. Le plus important est d’annoncer une disponibilité réaliste pour progresser et de respecter ce qui a été convenu, car une contribution irrégulière peut bloquer les autres membres. Mais tout le monde a droit à des vacances ou absences 😉.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_009",
+        "source_id":  9,
+        "category":  "Organisation et engagement",
+        "intent_key":  "y_a_t_il_un_nombre_d_heures_minimum_par_semaine",
+        "canonical_question":  "Y a-t-il un nombre d’heures minimum par semaine ?",
+        "utterances":  [
+                           "Il faut faire un minimum d’heures ?",
+                           "Vous demandez combien d’heures chaque semaine ?",
+                           "Il y a un quota d’heures à respecter ?",
+                           "Je dois m’engager sur combien d’heures ?",
+                           "Est-ce qu’il y a une disponibilité minimale ?"
+                       ],
+        "response":  "Le temps nécessaire dépend du projet, du rôle et des engagements pris avec l’équipe. Le plus important est d’annoncer une disponibilité réaliste et de respecter ce qui a été convenu, car une contribution irrégulière peut bloquer les autres membres. Mais tout le monde a droit à des vacances ou absences 😉.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_010",
+        "source_id":  10,
+        "category":  "Comprendre l'association",
+        "intent_key":  "est_ce_du_benevolat",
+        "canonical_question":  "Est-ce du bénévolat ?",
+        "utterances":  [
+                           "C’est une mission bénévole ?",
+                           "On participe comme bénévole ?",
+                           "C’est un emploi ou du bénévolat ?",
+                           "Quel est le statut des participants ?",
+                           "Je serai bénévole chez l'association ?"
+                       ],
+        "response":  "C'est du bénévolat. Les membres contribuent bénévolement aux activités et aux projets de l’association, sans contrepartie financière. Un contrat de bénévolat officiel encadre la collaboration et les responsabilités de chacun.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_011",
+        "source_id":  11,
+        "category":  "Comprendre l'association",
+        "intent_key":  "est_ce_une_formation",
+        "canonical_question":  "Est-ce une formation ?",
+        "utterances":  [
+                           "Vous êtes un organisme de formation ?",
+                           "C’est une école informatique ?",
+                           "On suit une formation chez vous ?",
+                           "l'association propose un parcours de formation ?",
+                           "Est-ce que je vais avoir des cours comme dans une école ?"
+                       ],
+        "response":  "L'association n’est pas un organisme de formation. Aujourd’hui, l’apprentissage se fait principalement par la participation à des projets collaboratifs réels. Cependant, nous avons un projet l'association-Learn, qui doit proposer des sujets de formation plus structurés. C'est encore en cours de développement.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_012",
+        "source_id":  12,
+        "category":  "Comprendre l'association",
+        "intent_key":  "est_ce_que_vous_proposez_des_cours",
+        "canonical_question":  "Est-ce que vous proposez des cours ?",
+        "utterances":  [
+                           "Vous donnez des cours ?",
+                           "Il y a des cours en ligne ?",
+                           "Vous avez un catalogue de cours ?",
+                           "Est-ce qu’on peut suivre des leçons chez l'association ?",
+                           "Vous proposez des modules de cours ?"
+                       ],
+        "response":  "Il n'y a pas actuellement un catalogue de cours en e-learning. On développe surtout ses compétences en participant aux projets. Le projet l'association-Learn a pour objectif de proposer des contenus et des sujets de formation structurée, mais il est encore en cours de développement.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_013",
+        "source_id":  13,
+        "category":  "Comprendre l'association",
+        "intent_key":  "est_ce_que_je_peux_obtenir_une_certification",
+        "canonical_question":  "Est-ce que je peux obtenir une certification ?",
+        "utterances":  [
+                           "Vous délivrez des certifications ?",
+                           "Est-ce qu’il y a un certificat à la fin ?",
+                           "Je peux passer une certification avec l'association ?",
+                           "Vos parcours sont certifiants ?",
+                           "Est-ce que l'association donne un diplôme ou une certification ?"
+                       ],
+        "response":  "Les certifications font partie des objectifs futurs de l'association, mais elles ne sont pas disponibles actuellement.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_014",
+        "source_id":  14,
+        "category":  "Comprendre l'association",
+        "intent_key":  "quels_projets_sont_actuellement_disponibles",
+        "canonical_question":  "Quels projets sont actuellement disponibles ?",
+        "utterances":  [
+                           "Quels projets peut-on rejoindre en ce moment ?",
+                           "Vous avez quoi comme projets ouverts ?",
+                           "Sur quels projets je peux candidater ?",
+                           "Quels sont les projets en cours ?",
+                           "Il y a quels projets disponibles actuellement ?"
+                       ],
+        "response":  "Les projets et les besoins évoluent selon leur avancement et la composition des équipes. Tu peux consulter les projets présentés sur le site et aborder ceux qui tintéressent en cours d'entretien de recrutement. L’équipe pourra ensuite te préciser les possibilités réellement ouvertes au moment de ta candidature.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_015",
+        "source_id":  15,
+        "category":  "Comprendre l'association",
+        "intent_key":  "quelles_technologies_utilisez_vous",
+        "canonical_question":  "Quelles technologies utilisez-vous ?",
+        "utterances":  [
+                           "Vous travaillez avec quelles technos ?",
+                           "C’est quoi votre stack technique ?",
+                           "Quels langages et outils utilisez-vous ?",
+                           "Vous développez avec quoi ?",
+                           "Quelles technologies sont utilisées dans vos projets ?"
+                       ],
+        "response":  "Les technologies dépendent des projets. L'association travaille notamment sur des applications web, des API, du cloud, de l’intelligence artificielle et différents outils open source. Les technologies utilisées sont précisées dans la présentation ou les besoins de chaque projet.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_016",
+        "source_id":  16,
+        "category":  "Comprendre l'association",
+        "intent_key":  "puis_je_rejoindre_un_projet_sur_une_technologie_que_je_ne_maitrise_pas_encore",
+        "canonical_question":  "Puis-je rejoindre un projet sur une technologie que je ne maîtrise pas encore ?",
+        "utterances":  [
+                           "Je peux candidater si je ne connais pas encore la techno ?",
+                           "On peut apprendre une nouvelle technologie sur un projet ?",
+                           "Il faut déjà maîtriser la stack pour participer ?",
+                           "Je peux rejoindre une équipe pour découvrir une techno ?",
+                           "Est-ce que je peux participer sans connaître tous les outils du projet ?"
+                       ],
+        "response":  "Tu peux participer à condition d’avoir des bases qui te permettent de contribuer et d’être un minimum autonome dans ton apprentissage. Tu peux apporter les compétences que tu maîtrises déjà tout en développant une nouvelle compétence avec d'autres membres plus seniors dans l’équipe.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_017",
+        "source_id":  17,
+        "category":  "Comprendre l'association",
+        "intent_key":  "puis_je_developper_une_competence_differente_de_celle_que_j_utilise_dans_mon_emploi",
+        "canonical_question":  "Puis-je développer une compétence différente de celle que j’utilise dans mon emploi ?",
+        "utterances":  [
+                           "Je peux travailler sur autre chose que dans mon poste actuel ?",
+                           "Est-ce que je peux explorer une compétence qu’on ne me laisse pas utiliser au travail ?",
+                           "Je suis déjà développeur, mais je veux découvrir l’IA : c’est possible ?",
+                           "Je peux venir pour élargir mes compétences professionnelles ?",
+                           "Est-ce que l'association permet de tester un nouveau domaine sans changer de métier ?"
+                       ],
+        "response":  "Oui, c’est même l’un des intérêts des projets l'association. Tu peux explorer une technologie ou un rôle auquel tu n’as pas accès dans ton poste actuel, tout en apportant au projet ton expérience professionnelle. C’est toujours plus motivant que de tester seul dans son coin 😉.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_018",
+        "source_id":  18,
+        "category":  "Comprendre l'association",
+        "intent_key":  "est_ce_que_je_serai_accompagne_dans_le_projet",
+        "canonical_question":  "Est-ce que je serai accompagné dans le projet ?",
+        "utterances":  [
+                           "Est-ce que quelqu’un va m’accompagner ?",
+                           "Je serai laissé seul sur mes tâches ?",
+                           "Il y a un référent dans les équipes ?",
+                           "Est-ce qu’on est guidé quand on rejoint un projet ?",
+                           "Qui peut m’aider si je bloque ?"
+                       ],
+        "response":  "Tu travailleras avec une équipe et un responsable de projet. L’objectif est de partager les connaissances et de progresser collectivement. En revanche, nous ne pouvons pas garantir un mentor individuel disponible .",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_019",
+        "source_id":  19,
+        "category":  "Comprendre l'association",
+        "intent_key":  "pourquoi_certaines_fonctionnalites_du_site_ne_fonctionnent_elles_pas_encore",
+        "canonical_question":  "Pourquoi certaines fonctionnalités du site ne fonctionnent-elles pas encore ?",
+        "utterances":  [
+                           "Pourquoi le site n’est pas complètement fonctionnel ?",
+                           "Pourquoi certains boutons ne marchent pas ?",
+                           "Il y a des fonctions encore indisponibles ?",
+                           "Le site est-il toujours en développement ?",
+                           "Quand les fonctionnalités manquantes seront-elles ajoutées ?"
+                       ],
+        "response":  "Parce que le compte membre et plusieurs services du site sont encore en cours de développement dans BEN, l'ERP de l'association. Nous les ouvrons progressivement lorsqu’ils sont suffisamment fiables et sécurisés.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_020",
+        "source_id":  20,
+        "category":  "Organisation et engagement",
+        "intent_key":  "puis_je_participer_seulement_le_soir_ou_le_week_end",
+        "canonical_question":  "Puis-je participer seulement le soir ou le week-end ?",
+        "utterances":  [
+                           "Je peux contribuer uniquement le soir ?",
+                           "C’est possible de travailler sur les projets le week-end ?",
+                           "Je suis disponible après le travail, ça convient ?",
+                           "Est-ce que je peux participer en dehors des horaires de bureau ?",
+                           "Mes disponibilités sont surtout le soir et le week-end, c’est compatible ?"
+                       ],
+        "response":  "Les bénévoles organisent leur contribution en fonction de leurs disponibilités, mais certaines réunions d’équipe peuvent avoir des horaires définis collectivement. Avant de rejoindre un projet, vérifie simplement que son fonctionnement est compatible avec ton emploi du temps. Il te faudra parfois un peu de flexibilité pour avancer.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_021",
+        "source_id":  21,
+        "category":  "Organisation et engagement",
+        "intent_key":  "est_ce_que_les_horaires_sont_imposes",
+        "canonical_question":  "Est-ce que les horaires sont imposés ?",
+        "utterances":  [
+                           "Il y a des horaires fixes ?",
+                           "Je dois me connecter à des heures précises ?",
+                           "Les équipes imposent-elles un planning ?",
+                           "Est-ce que je choisis mes horaires ?",
+                           "Comment sont organisés les horaires de travail ?"
+                       ],
+        "response":  "Il n’y a pas d’horaires salariés. Chaque équipe définit néanmoins ses temps de synchronisation et ses règles de fonctionnement. Il faut donc pouvoir participer aux échanges nécessaires pour ne pas travailler complètement à côté de l’équipe.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_022",
+        "source_id":  22,
+        "category":  "Organisation et engagement",
+        "intent_key":  "est_ce_que_tout_se_fait_a_distance",
+        "canonical_question":  "Est-ce que tout se fait à distance ?",
+        "utterances":  [
+                           "C’est du 100 % distanciel ?",
+                           "On peut tout faire en ligne ?",
+                           "Il faut venir sur place ?",
+                           "Vos projets se font à distance ?",
+                           "Est-ce que les équipes travaillent entièrement en remote ?"
+                       ],
+        "response":  "La totalité des activités et du travail sur les projets se déroule à distance, notamment grâce à Discord et aux outils collaboratifs et/ou asynchrones de l’association comme Google Workspace.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_023",
+        "source_id":  23,
+        "category":  "Organisation et engagement",
+        "intent_key":  "puis_je_participer_depuis_une_autre_region_ou_un_autre_pays",
+        "canonical_question":  "Puis-je participer depuis une autre région ou un autre pays ?",
+        "utterances":  [
+                           "Vous acceptez des membres partout en France ?",
+                           "Je vis à l’étranger, est-ce que je peux rejoindre l'association ?",
+                           "La distance est-elle un problème pour candidater ?",
+                           "Je suis dans une autre région, est-ce compatible ?"
+                       ],
+        "response":  "Le fonctionnement à distance permet de participer quelle que soit la zone de connexion. Pour une personne située à l’étranger, il faut surtout préciser et vérifier la compatibilité des horaires avec le collectif du projet concerné.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_024",
+        "source_id":  24,
+        "category":  "Organisation et engagement",
+        "intent_key":  "combien_de_temps_dure_un_engagement_dans_un_projet",
+        "canonical_question":  "Combien de temps dure un engagement dans un projet ?",
+        "utterances":  [
+                           "On s’engage pour combien de mois ?",
+                           "Quelle est la durée d’une mission ?",
+                           "Il faut rester jusqu’à la fin du projet ?",
+                           "Combien de temps dois-je prévoir de participer ?",
+                           "Les engagements sont-ils à durée fixe ?"
+                       ],
+        "response":  "Il n’y a pas de durée identique pour tous les projets. Le contrat de bénévolat est conclu pour une durée indéterminée et tu peux mettre fin à ton engagement. L’idéal est simplement d’anticiper ton départ pour permettre à l’équipe de s’organiser.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_025",
+        "source_id":  25,
+        "category":  "Organisation et engagement",
+        "intent_key":  "puis_je_arreter_si_ma_situation_change",
+        "canonical_question":  "Puis-je arrêter si ma situation change ?",
+        "utterances":  [
+                           "Je peux quitter le projet si je n’ai plus le temps ?",
+                           "Que se passe-t-il si je dois arrêter ?",
+                           "Est-ce que je peux mettre fin à mon bénévolat ?",
+                           "Je suis libre de partir en cours de projet ?",
+                           "Si ma situation professionnelle change, je peux arrêter ?"
+                       ],
+        "response":  "Dans tous les cas, tu restes libre de mettre fin à ton engagement. Dans la mesure du possible, nous te demandons de prévenir suffisamment tôt et de transmettre proprement les informations utiles à l’équipe.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_026",
+        "source_id":  26,
+        "category":  "Organisation et engagement",
+        "intent_key":  "puis_je_changer_de_projet",
+        "canonical_question":  "Puis-je changer de projet ?",
+        "utterances":  [
+                           "Je peux passer sur un autre projet ?",
+                           "Est-ce qu’on peut changer d’équipe ?",
+                           "Si un autre sujet m’intéresse davantage, je peux bouger ?",
+                           "Je peux demander à rejoindre un autre projet ?",
+                           "Est-ce possible d’évoluer d’un projet à l’autre ?"
+                       ],
+        "response":  "C’est possible si cela correspond à ton évolution et aux besoins des équipes. Il faut en discuter avec les responsables concernés afin de terminer ou transmettre correctement ce que tu avais commencé.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_027",
+        "source_id":  27,
+        "category":  "Organisation et engagement",
+        "intent_key":  "que_se_passe_t_il_si_je_suis_indisponible_pendant_quelque_temps",
+        "canonical_question":  "Que se passe-t-il si je suis indisponible pendant quelque temps ?",
+        "utterances":  [
+                           "Je fais quoi si je dois faire une pause ?",
+                           "Est-ce grave si je suis absent quelques semaines ?",
+                           "Comment prévenir d’une indisponibilité ?",
+                           "Je peux suspendre temporairement ma participation ?",
+                           "Que se passe-t-il si je ne peux plus contribuer pendant un moment ?"
+                       ],
+        "response":  "Préviens ton équipe dès que possible. Une indisponibilité temporaire n’est pas un problème lorsqu’elle est annoncée et que le travail peut être réorganisé. Le silence prolongé, lui, peut vraiment bloquer un projet.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_028",
+        "source_id":  28,
+        "category":  "Organisation et engagement",
+        "intent_key":  "dois_je_participer_aux_reunions",
+        "canonical_question":  "Dois-je participer aux réunions ?",
+        "utterances":  [
+                           "Les réunions sont obligatoires ?",
+                           "Je dois assister à tous les points d’équipe ?",
+                           "Il y a beaucoup de réunions à suivre ?",
+                           "Est-ce que je peux contribuer sans venir aux réunions ?",
+                           "Quels rendez-vous d’équipe faut-il suivre ?"
+                       ],
+        "response":  "Tu dois participer aux réunions nécessaires à ton rôle et au bon fonctionnement de ton équipe. Toutes les réunions ne sont pas obligatoires pour tout le monde, mais contribuer à un projet collectif suppose de rester synchronisé avec les autres.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_029",
+        "source_id":  29,
+        "category":  "Candidature et compte",
+        "intent_key":  "que_se_passe_t_il_apres_l_envoi_de_ma_candidature",
+        "canonical_question":  "Que se passe-t-il après l’envoi de ma candidature ?",
+        "utterances":  [
+                           "Quelle est la suite après avoir postulé ?",
+                           "Qui regarde ma candidature ?",
+                           "Que se passe-t-il une fois le formulaire envoyé ?",
+                           "Est-ce que je serai contacté après ma candidature ?",
+                           "Quelles sont les étapes après l’inscription ?"
+                       ],
+        "response":  "Le pôle RH étudie les informations transmises et peut te proposer un premier échange. Si ton profil correspond à un besoin, il peut ensuite être transmis au responsable du pôle ou du projet concerné pour poursuivre les échanges.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_030",
+        "source_id":  30,
+        "category":  "Candidature et compte",
+        "intent_key":  "combien_de_temps_faut_il_pour_recevoir_une_reponse",
+        "canonical_question":  "Combien de temps faut-il pour recevoir une réponse ?",
+        "utterances":  [
+                           "Vous répondez sous combien de temps ?",
+                           "Quel est le délai après une candidature ?",
+                           "Quand vais-je avoir un retour ?",
+                           "Il faut attendre combien de jours ?",
+                           "Pourquoi je n’ai pas encore reçu de réponse ?"
+                       ],
+        "response":  "Le délai peut varier selon le nombre de candidatures, les disponibilités des bénévoles RH et les besoins des projets. Nous faisons au mieux pour répondre, mais l’association fonctionne elle aussi grâce à des bénévoles.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_031",
+        "source_id":  31,
+        "category":  "Candidature et compte",
+        "intent_key":  "est_ce_que_toutes_les_candidatures_sont_acceptees",
+        "canonical_question":  "Est-ce que toutes les candidatures sont acceptées ?",
+        "utterances":  [
+                           "Vous acceptez tout le monde ?",
+                           "Est-ce qu’on peut être refusé ?",
+                           "Ma candidature est-elle automatiquement validée ?",
+                           "Quelles sont mes chances d’être accepté ?",
+                           "Est-ce que rejoindre l'association est garanti après le formulaire ?"
+                       ],
+        "response":  "Tout d'abord tu seras invité sur notre serveur Discord. Par la suite tu passeras un entretien avec les services RH pour évaluer tes besoins, ton domaine de compétences, ce que tu souhaites apporter. Une candidature peut ne pas correspondre aux besoins actuels, au niveau d’autonomie attendu ou aux places disponibles dans les équipes, tu seras tout de même membre du Discord, en attente de projet. Tous les profils sont intéressants et bienvenus, il faut simplement les intégrer dans le bon projet, au bon niveau.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_032",
+        "source_id":  32,
+        "category":  "Candidature et compte",
+        "intent_key":  "est_ce_que_je_dois_passer_un_entretien",
+        "canonical_question":  "Est-ce que je dois passer un entretien ?",
+        "utterances":  [
+                           "Il y a un entretien avant d’être accepté ?",
+                           "Est-ce qu’on échange avec les RH ?",
+                           "Je vais avoir un rendez-vous avec le responsable du projet ?",
+                           "Comment se passe l’entretien de candidature ?",
+                           "Faut-il passer plusieurs entretiens ?"
+                       ],
+        "response":  "Un échange va organisé avec le pôle RH dans les délais de leurs disponibilités, puis si ton profil correspond à un besoin immédiat, tu échangeras avec le responsable du projet ou du pôle concerné. Cela permet de vérifier les attentes, les compétences et la compatibilité avec le fonctionnement de l’équipe.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_033",
+        "source_id":  33,
+        "category":  "Candidature et compte",
+        "intent_key":  "quels_documents_dois_je_fournir",
+        "canonical_question":  "Quels documents dois-je fournir ?",
+        "utterances":  [
+                           "Il faut envoyer un CV ?",
+                           "Quels justificatifs sont demandés ?",
+                           "Je dois fournir mon portfolio ou mon GitHub ?",
+                           "Qu’est-ce qu’il faut préparer pour candidater ?",
+                           "Quels documents sont nécessaires pour le dossier ?"
+                       ],
+        "response":  "Le formulaire précise les informations nécessaires à la candidature, nous recueillons le minimum de données. Lors de l'échange avec les RH, il peut être utile de présenter ton CV, communiquer des liens vers ton portfolio, ton GitHub ou quelques réalisations, mais les éléments demandés peuvent varier selon le rôle. dans tous les cas les informations recueillies entreront dans ton profil de membre auquel seul le service RH aura accès.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_034",
+        "source_id":  34,
+        "category":  "Candidature et compte",
+        "intent_key":  "pourquoi_ma_candidature_peut_elle_etre_refusee",
+        "canonical_question":  "Pourquoi ma candidature peut-elle être refusée ?",
+        "utterances":  [
+                           "Pour quelles raisons peut-on refuser mon profil ?",
+                           "Qu’est-ce qui peut bloquer une candidature ?",
+                           "Pourquoi je n’ai pas été retenu ?",
+                           "Est-ce qu’un manque de place peut entraîner un refus ?",
+                           "Quels sont les motifs possibles de non-sélection ?"
+                       ],
+        "response":  "Parce qu’aucun projet ne correspond actuellement à ton profil, que l’équipe est complète, que le niveau d’autonomie attendu est différent ou que les disponibilités ne sont pas compatibles. Nous devons aussi préserver un fonctionnement équilibré pour les équipes déjà en place ou à venir. Dans tous les cas tu resteras membre du Discord, et tu auras accès à un canal de recrutement par les chef(fe)s de projet.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_035",
+        "source_id":  35,
+        "category":  "Candidature et compte",
+        "intent_key":  "ou_se_trouve_le_formulaire_de_candidature",
+        "canonical_question":  "Où se trouve le formulaire de candidature ?",
+        "utterances":  [
+                           "Où est le formulaire pour postuler ?",
+                           "Je ne trouve pas la candidature en ligne",
+                           "Sur quel bouton faut-il cliquer pour candidater ?",
+                           "Comment accéder au formulaire d’inscription ?",
+                           "Où déposer ma candidature ?"
+                       ],
+        "response":  "Tu peux y accéder depuis le bouton « Inscription » du site.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_036",
+        "source_id":  36,
+        "category":  "Candidature et compte",
+        "intent_key":  "dois_je_creer_un_compte_pour_candidater",
+        "canonical_question":  "Dois-je créer un compte pour candidater ?",
+        "utterances":  [
+                           "Il faut s’inscrire avant de postuler ?",
+                           "Je dois avoir un compte membre pour envoyer ma candidature ?",
+                           "Peut-on candidater sans compte ?",
+                           "Le formulaire crée-t-il automatiquement un compte ?",
+                           "Qu’est-ce qu’on me demande pour déposer ma candidature ?"
+                       ],
+        "response":  "Le parcours accessible depuis « Inscription » te demande les informations nécessaires pour déposer ta candidature. Le compte membre complet, avec l’ensemble de ses futures fonctionnalités, est encore en cours de développement.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_037",
+        "source_id":  37,
+        "category":  "Niveau et compétences",
+        "intent_key":  "quel_niveau_faut_il_avoir_pour_rejoindre_un_projet",
+        "canonical_question":  "Quel niveau faut-il avoir pour rejoindre un projet ?",
+        "utterances":  [
+                           "Quel niveau technique est demandé ?",
+                           "Il faut être junior, confirmé ou senior ?",
+                           "Comment savoir si j’ai le niveau ?",
+                           "Quels prérequis faut-il avoir ?",
+                           "Vous attendez quel niveau d’autonomie ?"
+                       ],
+        "response":  "Cela dépend du projet et du rôle. Certains besoins sont accessibles à des profils juniors, d’autres demandent davantage d’autonomie ou d’expérience. Ta candidature permet justement de vérifier où tu pourras contribuer utilement tout en progressant.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_038",
+        "source_id":  38,
+        "category":  "Niveau et compétences",
+        "intent_key":  "dois_je_maitriser_toutes_les_technologies_du_projet",
+        "canonical_question":  "Dois-je maîtriser toutes les technologies du projet ?",
+        "utterances":  [
+                           "Il faut connaître toute la stack ?",
+                           "Je dois savoir utiliser tous les outils du projet ?",
+                           "Est-ce bloquant si je ne maîtrise qu’une partie des technos ?",
+                           "On peut rejoindre une équipe sans tout connaître ?",
+                           "Vous demandez de maîtriser chaque technologie avant de candidater ?"
+                       ],
+        "response":  "Personne ne maîtrise nécessairement toute la stack d’un projet. Il faut surtout disposer de bases suffisantes pour ton rôle, être capable de chercher des solutions et savoir demander de l’aide de manière constructive.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_039",
+        "source_id":  39,
+        "category":  "Niveau et compétences",
+        "intent_key":  "est_ce_que_je_peux_participer_sans_experience_professionnelle",
+        "canonical_question":  "Est-ce que je peux participer sans expérience professionnelle ?",
+        "utterances":  [
+                           "Je n’ai jamais travaillé dans la tech, je peux candidater ?",
+                           "Vous acceptez les personnes sans expérience professionnelle ?",
+                           "Je n’ai que ma formation, est-ce suffisant ?",
+                           "Je cherche ma première expérience, est-ce possible ?",
+                           "Est-ce qu’un profil sans expérience en entreprise peut participer ?"
+                       ],
+        "response":  "Bien sûr, d'une part la vie d'une association ne se fait pas qu'avec des projets informatiques, Et dans tous les cas, certains projets peuvent accueillir des personnes qui ont surtout une expérience scolaire, personnelle ou associative. La décision dépendra de ton niveau actuel, de ton autonomie et des besoins de l’équipe.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_040",
+        "source_id":  40,
+        "category":  "Niveau et compétences",
+        "intent_key":  "est_ce_que_je_peux_contribuer_avec_seulement_des_projets_scolaires_ou_personnels",
+        "canonical_question":  "Est-ce que je peux contribuer avec seulement des projets scolaires ou personnels ?",
+        "utterances":  [
+                           "Mes projets d’école peuvent compter ?",
+                           "Je n’ai que des projets perso à montrer, ça suffit ?",
+                           "Vous regardez les projets GitHub personnels ?",
+                           "Est-ce que mes réalisations de formation peuvent servir pour candidater ?"
+                       ],
+        "response":  "Si tu en as c'est super,ces projets permettent déjà d’évaluer ta manière de travailler, les technologies que tu connais et ce que tu es capable de produire. Présente-les clairement dans ta candidature.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_041",
+        "source_id":  41,
+        "category":  "Niveau et compétences",
+        "intent_key":  "y_a_t_il_des_tests_techniques",
+        "canonical_question":  "Y a-t-il des tests techniques ?",
+        "utterances":  [
+                           "Vous faites passer un test technique ?",
+                           "Il y a un exercice avant d’être accepté ?",
+                           "Est-ce qu’on doit coder pendant l’entretien ?",
+                           "Comment se passe l’évaluation technique ?",
+                           "Vous demandez une épreuve technique pour rejoindre un projet ?"
+                       ],
+        "response":  "Pas d'entretien de test technique chez l'association, ce n'est pas  un job. L’objectif de l'entretien n’est pas de te piéger, mais d’éviter de te placer dans une mission qui ne te conviendrait pas.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_042",
+        "source_id":  42,
+        "category":  "Niveau et compétences",
+        "intent_key":  "comment_mon_niveau_est_il_evalue",
+        "canonical_question":  "Comment mon niveau est-il évalué ?",
+        "utterances":  [
+                           "Comment vous évaluez les candidats ?",
+                           "Sur quoi vous vous basez pour juger mon niveau ?",
+                           "Vous regardez quoi dans mon profil ?",
+                           "Comment savez-vous ce que je sais faire ?",
+                           "Quels éléments servent à évaluer mes compétences ?"
+                       ],
+        "response":  "À partir des informations de ta candidature, de tes expériences, de tes projets et des échanges avec l’équipe. Nous cherchons autant à comprendre ce que tu sais déjà faire que ce que tu souhaites développer puisque c'est l'objectif principal de l'association. Même un Senior ou Mentor aura l'occasion de progresser dans sa capacité à transmettre ou dans la découverte de nouveaux environnements.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_043",
+        "source_id":  43,
+        "category":  "Niveau et compétences",
+        "intent_key":  "comment_etes_vous_surs_que_le_projet_correspond_a_mes_competences",
+        "canonical_question":  "Comment êtes-vous sûrs que le projet correspond à mes compétences ?",
+        "utterances":  [
+                           "Comment choisissez-vous le bon projet pour moi ?",
+                           "Qui vérifie que mon profil correspond à l’équipe ?",
+                           "Comment évitez-vous de me mettre sur un projet trop difficile ?",
+                           "Comment se fait la mise en relation entre mon profil et un projet ?",
+                           "Comment savoir si la mission va vraiment me convenir ?"
+                       ],
+        "response":  "Nous croisons les besoins du projet avec ton expérience, ton niveau d’autonomie et tes objectifs. Ce n’est pas une science exacte, donc l’échange avec le responsable de projet reste important pour vérifier que les attentes sont claires des deux côtés.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_044",
+        "source_id":  44,
+        "category":  "Niveau et compétences",
+        "intent_key":  "puis_je_apporter_mes_competences_actuelles_tout_en_apprenant_autre_chose",
+        "canonical_question":  "Puis-je apporter mes compétences actuelles tout en apprenant autre chose ?",
+        "utterances":  [
+                           "Je peux aider avec ce que je sais déjà faire et apprendre en parallèle ?",
+                           "Est-ce que je peux avoir un rôle mixte dans le projet ?",
+                           "Je peux contribuer sur mes points forts tout en découvrant une nouvelle techno ?",
+                           "On peut être à la fois utile et en apprentissage ?",
+                           "Je dois choisir entre transmettre et apprendre ?"
+                       ],
+        "response":  "C’est même une très bonne manière de contribuer. Tu peux sécuriser une partie du projet grâce à ce que tu maîtrises déjà et profiter du travail collectif pour développer une nouvelle compétence.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_045",
+        "source_id":  45,
+        "category":  "Projets et équipes",
+        "intent_key":  "quels_sont_les_projets_de_lassociation",
+        "canonical_question":  "Quels sont les projets de l'association ?",
+        "utterances":  [
+                           "Vous développez quoi chez l'association ?",
+                           "Quels sont vos projets principaux ?",
+                           "Sur quoi travaillent les équipes ?",
+                           "Vous avez quelles applications en cours ?",
+                           "Quels types de projets propose l’association ?"
+                       ],
+        "response":  "L'association développe plusieurs projets numériques collaboratifs, certains sont présentés sur le site institutionnel. Leur état d’avancement et leurs besoins évoluent. Et tu peux présenter ton propre projet, nous t'aiderons à le faire naître.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_046",
+        "source_id":  46,
+        "category":  "Projets et équipes",
+        "intent_key":  "a_quel_stade_en_sont_les_projets",
+        "canonical_question":  "À quel stade en sont les projets ?",
+        "utterances":  [
+                           "Les projets sont déjà en ligne ?",
+                           "Ils en sont où vos projets ?",
+                           "Quels projets sont encore en développement ?",
+                           "Est-ce que certains projets sont déjà terminés ?",
+                           "Comment connaître l’avancement de chaque projet ?"
+                       ],
+        "response":  "Certains projets sont en cours de développement, d’autres évoluent déjà par versions successives. Le site présente leur objectif général, mais l’équipe pourra te donner un état plus précis lors de ta candidature.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_047",
+        "source_id":  47,
+        "category":  "Projets et équipes",
+        "intent_key":  "comment_puis_je_savoir_quels_projets_recrutent",
+        "canonical_question":  "Comment puis-je savoir quels projets recrutent ?",
+        "utterances":  [
+                           "Où voir les projets qui cherchent du monde ?",
+                           "Comment savoir quelles équipes ont besoin de bénévoles ?",
+                           "Vous publiez les postes ouverts quelque part ?",
+                           "Quels projets recrutent actuellement ?",
+                           "Où sont affichés les besoins des projets ?"
+                       ],
+        "response":  "Candidate en indiquant les domaines, rôles et projets qui t’intéressent. Les besoins pouvant évoluer rapidement, l’équipe vérifiera les possibilités ouvertes au moment où elle étudiera ton profil.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_048",
+        "source_id":  48,
+        "category":  "Projets et équipes",
+        "intent_key":  "comment_les_equipes_sont_elles_constituees",
+        "canonical_question":  "Comment les équipes sont-elles constituées ?",
+        "utterances":  [
+                           "Comment vous formez les équipes ?",
+                           "Qui décide dans quel projet on va ?",
+                           "Comment sont répartis les bénévoles ?",
+                           "Vous mettez quels profils ensemble ?",
+                           "Comment choisissez-vous la composition d’une équipe ?"
+                       ],
+        "response":  "Les équipes sont constituées en fonction des besoins du projet, des compétences disponibles et des objectifs de progression des bénévoles. Nous cherchons à créer un équilibre entre autonomie, complémentarité et apprentissage collectif.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_049",
+        "source_id":  49,
+        "category":  "Projets et équipes",
+        "intent_key":  "qui_dirige_ou_coordonne_les_projets",
+        "canonical_question":  "Qui dirige ou coordonne les projets ?",
+        "utterances":  [
+                           "Qui pilote les projets ?",
+                           "Il y a un chef de projet dans chaque équipe ?",
+                           "Qui organise le travail ?",
+                           "Qui prend les décisions sur le projet ?",
+                           "À qui doit-on s’adresser dans l’équipe ?"
+                       ],
+        "response":  "Chaque projet a un€ Chef(fe) de projet chargé de définir le périmètre, de coordonner le travail, les priorités et si besoin les échanges avec les autres pôles de l’association.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_050",
+        "source_id":  50,
+        "category":  "Projets et équipes",
+        "intent_key":  "comment_se_passe_le_travail_en_equipe",
+        "canonical_question":  "Comment se passe le travail en équipe ?",
+        "utterances":  [
+                           "Comment vous travaillez au quotidien ?",
+                           "Comment les bénévoles collaborent-ils ?",
+                           "Les tâches sont organisées comment ?",
+                           "Comment se déroulent les échanges dans une équipe ?",
+                           "C’est quoi votre façon de travailler sur les projets ?"
+                       ],
+        "response":  "Nous avons un GoogleWorkplace. Les membres collaborent à distance, partagent l’avancement de leur travail, organisent les tâches et échangent régulièrement sur les difficultés rencontrées. Le but n’est pas d’empiler des contributions individuelles, mais de construire quelque chose ensemble. Nous utilisons Taïga mais selon le nombre de membres dans l'équipe ça peut se faire sur d'autres outils gratuits... c'est à discuter avec l'équipe en début de projet.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_051",
+        "source_id":  51,
+        "category":  "Projets et équipes",
+        "intent_key":  "quels_outils_collaboratifs_utilisez_vous",
+        "canonical_question":  "Quels outils collaboratifs utilisez-vous ?",
+        "utterances":  [
+                           "Vous utilisez quels outils pour travailler ?",
+                           "Les équipes communiquent où ?",
+                           "Vous utilisez GitHub et Discord ?",
+                           "Quels logiciels faut-il connaître ?",
+                           "Comment sont gérés les projets à distance ?"
+                       ],
+        "response":  "Discord est utilisé pour les échanges de la communauté et des équipes. Selon les projets, nous utilisons également GitHub et différents outils de gestion, de documentation, de conception ou de partage de fichiers.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_052",
+        "source_id":  52,
+        "category":  "Projets et équipes",
+        "intent_key":  "le_code_est_il_disponible_sur_github",
+        "canonical_question":  "Le code est-il disponible sur GitHub ?",
+        "utterances":  [
+                           "Je peux voir votre code sur GitHub ?",
+                           "Les dépôts sont-ils publics ?",
+                           "Où trouver le code des projets ?",
+                           "Votre GitHub est accessible à tout le monde ?",
+                           "Le code source est publié en ligne ?"
+                       ],
+        "response":  "Les projets open source ont vocation à rendre leur code accessible publiquement sur GitHub. Certaines ressources de travail, données ou informations internes restent toutefois protégées.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_053",
+        "source_id":  53,
+        "category":  "Projets et équipes",
+        "intent_key":  "les_projets_sont_ils_tous_open_source",
+        "canonical_question":  "Les projets sont-ils tous open source ?",
+        "utterances":  [
+                           "Tout ce que vous développez est open source ?",
+                           "Vos applications sont-elles publiques ?",
+                           "Quel type de licence utilisez-vous ?",
+                           "Est-ce que tous les dépôts sont ouverts ?",
+                           "Les projets l'association sont-ils libres et accessibles ?"
+                       ],
+        "response":  "L’open source est au cœur du fonctionnement de l'association. Cela ne signifie pas pour autant que toutes les informations, tous les accès ou toutes les données d’un projet sont publics. Le code publié et les informations internes ne relèvent pas des mêmes règles.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_054",
+        "source_id":  54,
+        "category":  "Projets et équipes",
+        "intent_key":  "puis_je_voir_les_projets_avant_de_candidater",
+        "canonical_question":  "Puis-je voir les projets avant de candidater ?",
+        "utterances":  [
+                           "Je peux regarder les projets avant de m’inscrire ?",
+                           "Où voir ce que vous avez déjà réalisé ?",
+                           "Est-ce que je peux consulter les projets sans être membre ?",
+                           "Je voudrais voir le projet avant de postuler, c’est possible ?",
+                           "Les présentations des projets sont-elles publiques ?"
+                       ],
+        "response":  "Oui, tu peux consulter leur présentation sur le site et, lorsqu’ils sont publics, leurs ressources open source. La candidature permet ensuite d’obtenir davantage d’informations sur le rôle proposé et les besoins actuels.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_055",
+        "source_id":  55,
+        "category":  "Projets et équipes",
+        "intent_key":  "puis_je_proposer_mon_propre_projet",
+        "canonical_question":  "Puis-je proposer mon propre projet ?",
+        "utterances":  [
+                           "Je peux venir avec une idée de projet ?",
+                           "l'association accepte les projets proposés par les membres ?",
+                           "Comment soumettre un nouveau projet ?",
+                           "Je voudrais lancer une application avec l’association, c’est possible ?",
+                           "Comment choisissez-vous les nouveaux projets ?"
+                       ],
+        "response":  "Un membre peut proposer un projet. Il devra néanmoins être étudié afin de vérifier sa cohérence avec les valeurs de l’association, sa faisabilité, son intérêt collectif et les ressources nécessaires.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_056",
+        "source_id":  56,
+        "category":  "Projets et équipes",
+        "intent_key":  "puis_je_participer_a_un_projet_d_intelligence_artificielle_ou_de_chatbot",
+        "canonical_question":  "Puis-je participer à un projet d’intelligence artificielle ou de chatbot ?",
+        "utterances":  [
+                           "Vous avez des projets en IA ?",
+                           "Je voudrais travailler sur un chatbot, c’est possible ?",
+                           "Est-ce qu’on peut contribuer sur des LLM ou du RAG ?",
+                           "Vous recrutez pour des projets d’intelligence artificielle ?",
+                           "Je peux candidater sur un sujet IA même si ce n’est pas mon métier actuel ?"
+                       ],
+        "response":  "Cela dépend des besoins ouverts sur les projets concernés et de ton profil. Tu peux indiquer ton intérêt pour l’IA, les LLM, le RAG ou les chatbots dans ta candidature afin que l’équipe puisse étudier les possibilités.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_057",
+        "source_id":  57,
+        "category":  "Apprentissage",
+        "intent_key":  "est_ce_que_quelqu_un_va_m_apprendre_la_technologie",
+        "canonical_question":  "Est-ce que quelqu’un va m’apprendre la technologie ?",
+        "utterances":  [
+                           "Est-ce qu’on va me former à la techno ?",
+                           "Quelqu’un m’explique tout au début ?",
+                           "Vous avez des formateurs pour les projets ?",
+                           "Est-ce que je serai guidé pas à pas ?",
+                           "Qui va m’apprendre les outils que je ne connais pas ?"
+                       ],
+        "response":  "Tu pourras bénéficier de l’expérience et des retours des autres membres, mais tu restes acteur de ton apprentissage. l'association n’est pas une école avec un formateur chargé de te transmettre tout le programme étape par étape.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_058",
+        "source_id":  58,
+        "category":  "Apprentissage",
+        "intent_key":  "est_ce_que_j_aurai_un_senior_ou_un_mentor",
+        "canonical_question":  "Est-ce que j’aurai un senior ou un mentor ?",
+        "utterances":  [
+                           "Vous attribuez un senior ou un mentor à chaque membre ?",
+                           "Est-ce qu’un senior va me suivre ?"
+                       ],
+        "response":  "L’entraide et le partage de connaissances font partie du fonctionnement de l'association, mais nous ne garantissons pas l’attribution d’un senior dans chaque projet. L’accompagnement dépend de l’équipe, du projet et des compétences disponibles.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_059",
+        "source_id":  59,
+        "category":  "Apprentissage",
+        "intent_key":  "quelle_difference_y_a_t_il_entre_got_et_une_ecole_ou_une_formation",
+        "canonical_question":  "Quelle différence y a-t-il entre l'association et une école ou une formation ?",
+        "utterances":  [
+                           "En quoi l'association est différent d’une école ?",
+                           "Quelle est la différence avec une formation classique ?",
+                           "Pourquoi rejoindre l'association plutôt qu’un cours en ligne ?",
+                           "Est-ce un bootcamp ?",
+                           "Votre approche est différente d’un organisme de formation comment ?"
+                       ],
+        "response":  "Une école ou une formation suit généralement un programme pédagogique défini. Chez l'association, tu développes surtout tes compétences en contribuant à des projets collaboratifs, avec les contraintes et les responsabilités d’une réalisation réelle.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_060",
+        "source_id":  60,
+        "category":  "Apprentissage",
+        "intent_key":  "est_ce_que_got_learn_est_deja_disponible",
+        "canonical_question":  "Est-ce que l'association-Learn est déjà disponible ?",
+        "utterances":  [
+                           "l'association-Learn est ouvert ?",
+                           "On peut déjà accéder à l'association-Learn ?",
+                           "La plateforme de formation fonctionne déjà ?",
+                           "l'association-Learn est en ligne ?",
+                           "Est-ce que je peux m’inscrire à l'association-Learn maintenant ?"
+                       ],
+        "response":  "l'association-Learn est encore en cours de développement, avec l'avancée de l'IA cet environnement change très très vite.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_061",
+        "source_id":  61,
+        "category":  "Apprentissage",
+        "intent_key":  "que_proposera_got_learn",
+        "canonical_question":  "Que proposera l'association-Learn ?",
+        "utterances":  [
+                           "l'association-Learn va servir à quoi ?",
+                           "Qu’est-ce qu’on trouvera dans l'association-Learn ?",
+                           "Quels contenus sont prévus sur l'association-Learn ?",
+                           "Ce sera une plateforme de cours ?",
+                           "Quel est l’objectif du projet l'association-Learn ?"
+                       ],
+        "response":  "l'association-Learn a pour objectif de proposer des contenus et des sujets de formation structurée autour de compétences utiles aux membres. Le projet étant encore en développement, son contenu définitif et ses modalités d’accès ne sont pas encore disponibles.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_062",
+        "source_id":  62,
+        "category":  "Apprentissage",
+        "intent_key":  "les_certifications_sont_elles_deja_accessibles",
+        "canonical_question":  "Les certifications sont-elles déjà accessibles ?",
+        "utterances":  [
+                           "On peut déjà passer une certification ?",
+                           "Les certifications l'association sont disponibles ?",
+                           "Quand est-ce que les certifications ouvrent ?",
+                           "Vous certifiez déjà les compétences ?",
+                           "Est-ce qu’il existe actuellement un parcours certifiant ?"
+                       ],
+        "response":  "Les certifications font partie des objectifs futurs de l'association, mais elles ne sont pas disponibles actuellement.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_063",
+        "source_id":  63,
+        "category":  "Insertion professionnelle",
+        "intent_key":  "est_ce_que_got_fournit_une_attestation_de_benevolat",
+        "canonical_question":  "Est-ce que l'association fournit une attestation de bénévolat ?",
+        "utterances":  [
+                           "Est-ce que vous donnez une attestation ?",
+                           "Je peux obtenir une preuve de ma participation ?",
+                           "l'association délivre-t-elle un certificat de bénévolat ?",
+                           "Est-ce qu’une attestation peut être remise à la fin ?",
+                           "Comment faire reconnaître officiellement mon bénévolat ?"
+                       ],
+        "response":  "Une attestation sera envisagée à partir d’une participation réelle et vérifiable. Elle doit correspondre aux missions effectivement réalisées et ne peut pas être délivrée automatiquement dès l’adhésion.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_064",
+        "source_id":  64,
+        "category":  "Insertion professionnelle",
+        "intent_key":  "est_ce_que_la_participation_aide_a_trouver_un_emploi",
+        "canonical_question":  "Est-ce que la participation aide à trouver un emploi ?",
+        "utterances":  [
+                           "Est-ce que l'association peut m’aider professionnellement ?",
+                           "Participer peut-il améliorer mes chances d’embauche ?",
+                           "Est-ce utile pour chercher un travail ?",
+                           "Les projets peuvent-ils m’aider à gagner en expérience ?",
+                           "Est-ce que cela peut m’aider à m’insérer dans la tech ?"
+                       ],
+        "response":  "Elle peut t’aider à développer des compétences, travailler en équipe et acquérir une expérience concrète. Cela peut renforcer ton profil, mais l'association ne peut évidemment pas garantir un recrutement.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_065",
+        "source_id":  65,
+        "category":  "Insertion professionnelle",
+        "intent_key":  "est_ce_que_got_met_les_membres_en_relation_avec_des_entreprises",
+        "canonical_question":  "Est-ce que l'association met les membres en relation avec des entreprises ?",
+        "utterances":  [
+                           "Vous avez des entreprises partenaires ?",
+                           "Est-ce que vous transmettez des profils à des recruteurs ?",
+                           "Il y a des opportunités de networking avec des entreprises ?",
+                           "l'association organise-t-elle des mises en relation professionnelles ?",
+                           "Les membres peuvent-ils rencontrer des employeurs grâce à l’association ?"
+                       ],
+        "response":  "L’insertion professionnelle fait partie des objectifs de l’association. Des opportunités de réseau ou de mise en relation peuvent exister, mais elles dépendent des partenariats et des actions disponibles à ce moment-là.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_066",
+        "source_id":  66,
+        "category":  "Insertion professionnelle",
+        "intent_key":  "est_ce_que_participer_garantit_de_trouver_un_emploi",
+        "canonical_question":  "Est-ce que participer garantit de trouver un emploi ?",
+        "utterances":  [
+                           "Est-ce que je trouverai forcément un travail après ?",
+                           "Vous garantissez une embauche ?",
+                           "Est-ce que l'association place les membres en entreprise ?",
+                           "Participer assure-t-il de décrocher un poste ?",
+                           "Y a-t-il une promesse d’emploi à la fin ?"
+                       ],
+        "response":  "l'association peut t’aider à développer des compétences, acquérir de l’expérience et rencontrer d’autres professionnels, ce qui t'ouvrira des opportunités, mais le recrutement reste une décision de l’employeur.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_067",
+        "source_id":  67,
+        "category":  "Juridique et données",
+        "intent_key":  "a_qui_appartient_le_code_que_je_developpe",
+        "canonical_question":  "À qui appartient le code que je développe ?",
+        "utterances":  [
+                           "Qui possède mes contributions ?",
+                           "Le code que j’écris reste-t-il à moi ?",
+                           "Est-ce que l'association devient propriétaire de mon travail ?",
+                           "Quels droits ai-je sur le code produit ?",
+                           "Comment est gérée la propriété intellectuelle ?"
+                       ],
+        "response":  "Les contributions réalisées dans le cadre du bénévolat sont encadrées par le contrat signé avec l’association. Celui-ci prévoit notamment une licence d’exploitation permettant à l'association d’utiliser et de faire évoluer les contributions. Les modalités précises doivent être consultées dans le contrat avant sa signature.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_068",
+        "source_id":  68,
+        "category":  "Juridique et données",
+        "intent_key":  "puis_je_reutiliser_certaines_parties_du_code_ailleurs",
+        "canonical_question":  "Puis-je réutiliser certaines parties du code ailleurs ?",
+        "utterances":  [
+                           "Je peux reprendre mon code pour un autre projet ?",
+                           "Est-ce que j’ai le droit de réutiliser une contribution ?",
+                           "Puis-je copier une partie du dépôt dans mon projet personnel ?",
+                           "La licence m’autorise-t-elle à reprendre le code ?",
+                           "Quelles sont les règles pour réutiliser le code open source ?"
+                       ],
+        "response":  "Cela dépend de la licence du projet, de la nature du code et des engagements prévus dans ton contrat. Le fait qu’un projet soit open source ne signifie pas que tout peut être repris sans respecter sa licence ou les droits des autres contributeurs.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_069",
+        "source_id":  69,
+        "category":  "Juridique et données",
+        "intent_key":  "dois_je_signer_un_contrat_de_benevolat",
+        "canonical_question":  "Dois-je signer un contrat de bénévolat ?",
+        "utterances":  [
+                           "Il faut signer un contrat pour participer ?",
+                           "Pourquoi un contrat si c’est bénévole ?",
+                           "Est-ce obligatoire de signer quelque chose ?",
+                           "Quand signe-t-on le contrat de bénévolat ?",
+                           "Je peux rejoindre un projet sans contrat ?"
+                       ],
+        "response":  "Tu signes un contrat composé de plusieurs documents lorsque ta candidature est acceptée et que tu rejoins un projet ou un pôle. Nous t'enverrons différents documents dont le Contrat de bénévolat, la Charte membre, la Politique de confidentialité, le Réglement interne, le Droit à l'image. Le contrat formalise la collaboration, les responsabilités, la confidentialité et l’utilisation des contributions.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_070",
+        "source_id":  70,
+        "category":  "Juridique et données",
+        "intent_key":  "pourquoi_faut_il_signer_un_contrat",
+        "canonical_question":  "Pourquoi faut-il signer un contrat ?",
+        "utterances":  [
+                           "À quoi sert le contrat de bénévolat ?",
+                           "Pourquoi encadrer juridiquement une mission bénévole ?",
+                           "Qu’est-ce que le contrat protège ?",
+                           "Pourquoi autant de formalités pour une association ?",
+                           "Le contrat est-il vraiment nécessaire ?"
+                       ],
+        "response":  "Parce qu’un projet collectif implique des accès, des données, du code et des responsabilités. Le contrat protège à la fois le bénévole, l’association, les autres membres et les projets.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_071",
+        "source_id":  71,
+        "category":  "Juridique et données",
+        "intent_key":  "dois_je_respecter_une_clause_de_confidentialite",
+        "canonical_question":  "Dois-je respecter une clause de confidentialité ?",
+        "utterances":  [
+                           "Il y a une obligation de confidentialité ?",
+                           "Qu’est-ce que je n’ai pas le droit de partager ?",
+                           "La confidentialité continue-t-elle après mon départ ?",
+                           "Est-ce que je peux parler publiquement du projet ?",
+                           "Quels éléments doivent rester internes ?"
+                       ],
+        "response":  "Tu as une obligation de confidentialité car tu peux accéder à des informations internes, des données personnelles, des identifiants ou des éléments stratégiques qui ne doivent pas être diffusés. Cette obligation peut continuer à s’appliquer après ton départ.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_072",
+        "source_id":  72,
+        "category":  "Juridique et données",
+        "intent_key":  "quelles_donnees_personnelles_sont_collectees",
+        "canonical_question":  "Quelles données personnelles sont collectées ?",
+        "utterances":  [
+                           "Quelles informations gardez-vous sur moi ?",
+                           "Que collecte le formulaire de candidature ?",
+                           "Vous enregistrez quelles données personnelles ?",
+                           "Est-ce que vous récupérez mon adresse IP ?",
+                           "Pourquoi avez-vous besoin de mes informations professionnelles ?"
+                       ],
+        "response":  "Selon ton utilisation du site et ta candidature, l'association peut collecter des données d’identification et de contact, des informations sur ton expérience professionnelle, ainsi que les données nécessaires à la gestion de ta participation. Seules les informations utiles aux finalités annoncées doivent être utilisées.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_073",
+        "source_id":  73,
+        "category":  "Juridique et données",
+        "intent_key":  "est_ce_que_mes_donnees_sont_revendues",
+        "canonical_question":  "Est-ce que mes données sont revendues ?",
+        "utterances":  [
+                           "Vous vendez mes données ?",
+                           "Mes informations sont-elles utilisées à des fins commerciales ?",
+                           "Est-ce que des entreprises peuvent acheter mes données ?",
+                           "Vous partagez mon profil avec des annonceurs ?",
+                           "Que faites-vous commercialement de mes données ?"
+                       ],
+        "response":  "L'association s’engage à ne pas utiliser tes données personnelles à des fins commerciales, elles ne servent qu'à te contacter et remplir nos obligations légales, d'ailleurs tu verras qu'elles sont totalement minimisées selon les règles du RGPD.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_074",
+        "source_id":  74,
+        "category":  "Juridique et données",
+        "intent_key":  "ou_sont_hebergees_mes_donnees",
+        "canonical_question":  "Où sont hébergées mes données ?",
+        "utterances":  [
+                           "Mes données sont stockées où ?",
+                           "Vous utilisez quel hébergeur ?",
+                           "Les applications sont hébergées sur quel cloud ?",
+                           "Est-ce que mes données restent en Europe ?",
+                           "l'association utilise Google Cloud ?"
+                       ],
+        "response":  "Les services de l'association utilisent Google Cloud Platform, notamment Cloud Run pour les applications, ainsi que des outils Google pour certaines données et ressources collaboratives. Des informations complémentaires sont disponibles dans la politique de confidentialité.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_075",
+        "source_id":  75,
+        "category":  "Juridique et données",
+        "intent_key":  "comment_demander_la_suppression_de_mes_donnees",
+        "canonical_question":  "Comment demander la suppression de mes données ?",
+        "utterances":  [
+                           "Comment faire effacer mes informations ?",
+                           "Je veux supprimer mon compte et mes données",
+                           "À qui écrire pour exercer mon droit à l’effacement ?",
+                           "Comment demander la rectification de mes données ?",
+                           "Quelle adresse utiliser pour une demande RGPD ?"
+                       ],
+        "response":  "Tu peux exercer tes droits d’accès, de rectification ou de suppression en contactant l’adresse RGPD indiquée dans la politique de confidentialité : rgpd@guildopentech.org. Précise les données concernées et la demande que tu souhaites exercer.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_076",
+        "source_id":  76,
+        "category":  "Juridique et données",
+        "intent_key":  "qui_contacter_en_cas_de_probleme",
+        "canonical_question":  "Qui contacter en cas de problème ?",
+        "utterances":  [
+                           "À qui écrire si j’ai une question ?",
+                           "Quel est votre mail de contact ?",
+                           "Qui contacter pour un souci sur mon projet ?",
+                           "Où signaler un problème avec mes données ?",
+                           "Comment joindre l'association ?"
+                       ],
+        "response":  "Pour une question générale, tu peux écrire à contact@guildopentech.org. Pour un sujet lié à tes données personnelles, utilise rgpd@guildopentech.org. Pour un problème concernant ton équipe ou ton engagement, contacte d’abord ton responsable de pôle ou de projet.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_077",
+        "source_id":  77,
+        "category":  "Juridique et données",
+        "intent_key":  "quelle_est_l_adresse_de_l_association",
+        "canonical_question":  "Quelle est l’adresse de l’association ?",
+        "utterances":  [
+                           "Où est situé le siège de l'association ?",
+                           "Quelle est votre adresse postale ?",
+                           "L’association est basée où ?",
+                           "Vous êtes situés à Paris ?",
+                           "À quelle adresse peut-on écrire ?"
+                       ],
+        "response":  "Le siège social de l'association est situé au 197 avenue de Versailles, 75016 Paris.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_078",
+        "source_id":  78,
+        "category":  "Juridique et données",
+        "intent_key":  "quels_sont_les_reseaux_officiels_de_got",
+        "canonical_question":  "Quels sont les réseaux officiels de l'association ?",
+        "utterances":  [
+                           "Vous êtes sur quels réseaux sociaux ?",
+                           "Où peut-on vous suivre ?",
+                           "Vous avez un LinkedIn ?",
+                           "Est-ce que l'association est sur Discord ?",
+                           "Quels sont vos comptes officiels ?"
+                       ],
+        "response":  "L'association est présente sur LinkedIn et Discord.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_079",
+        "source_id":  79,
+        "category":  "Juridique et données",
+        "intent_key":  "comment_rejoindre_le_serveur_discord",
+        "canonical_question":  "Comment rejoindre le serveur Discord ?",
+        "utterances":  [
+                           "Où est le lien Discord ?",
+                           "Comment accéder à votre communauté Discord ?",
+                           "Je peux rejoindre Discord avant de candidater ?",
+                           "Le serveur Discord est-il public ?",
+                           "Comment recevoir une invitation Discord ?"
+                       ],
+        "response":  "Le lien d’accès à Discord est disponible depuis le site de l'association. Une fois ta candidature acceptée, des espaces complémentaires pourront t’être ouverts selon ton projet ou ton rôle.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_080",
+        "source_id":  80,
+        "category":  "Juridique et données",
+        "intent_key":  "que_se_passe_t_il_quand_je_quitte_un_projet",
+        "canonical_question":  "Que se passe-t-il quand je quitte un projet ?",
+        "utterances":  [
+                           "Que dois-je faire avant de partir ?",
+                           "Comment se déroule la fin d’une mission ?",
+                           "Est-ce que mes accès sont supprimés ?",
+                           "Je dois transmettre mon travail à quelqu’un ?",
+                           "Quelles obligations restent après mon départ ?"
+                       ],
+        "response":  "Tu dois prévenir l’équipe, transmettre les informations nécessaires et restituer ou supprimer les accès et informations confidentielles que tu détiens. Les accès aux ressources liées à ta mission seront ensuite retirés. Au bout de 6 mois tes données seront automatiquement supprimées ou anonymisées dans le respect de la législation.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_081",
+        "source_id":  81,
+        "category":  "Juridique et données",
+        "intent_key":  "de_quand_date_l_association",
+        "canonical_question":  "De quand date l'association ?",
+        "utterances":  [
+                           "Création de l'association",
+                           "Depuis quand existe l'association"
+                       ],
+        "response":  "L'association a été crée en 2023 mais elle n'a réellement démarré qu'en mai 2024.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_082",
+        "source_id":  82,
+        "category":  "Projets et équipes",
+        "intent_key":  "combien_de_membres_dans_un_projet",
+        "canonical_question":  "Il y a combien de membres dans un projet",
+        "utterances":  [
+                           "On est combien dans une équipe",
+                           "on peut être plusieurs avec le même rôle dans une équipe",
+                           "il y a plusieurs équipes dans un projet"
+                       ],
+        "response":  "Le nombre d'équipe par projet et le nombre de membres dépend de beaucoup d'éléments comme le sujet du projet, la disponibilité des membres. On peut être trois comme 15, sur un projet à un sujet unique ou découpé en trois produits. Il n'y a pas de standard.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_083",
+        "source_id":  83,
+        "category":  "Insertion professionnelle",
+        "intent_key":  "est_ce_que_got_peut_signer_une_convention_de_stage",
+        "canonical_question":  "Est-ce que l'association peut signer une convention de stage ?",
+        "utterances":  [
+                           "Proposez-vous des contrats en alternance ou d'apprentissage ?",
+                           "Vous prenez des stagiaires",
+                           "Puis-je valider mon stage obligatoire chez vous",
+                           "Est-ce possible d’avoir une convention d’école pour participer aux projets"
+                       ],
+        "response":  "A priori non car l'association ne peut pas assurer qu'il y aura un maître de stage dans la durée.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_084",
+        "source_id":  84,
+        "category":  "Insertion professionnelle",
+        "intent_key":  "puis_je_participer_en_etant_inscrit_a_france_travail_ou_au_rsa",
+        "canonical_question":  "Puis-je participer en étant inscrit à France Travail ou au RSA ?",
+        "utterances":  [
+                           "Est-ce compatible avec mon inscription à France Travail / Pôle Emploi ?",
+                           "Je touche le chômage, est-ce que j’ai le droit de faire du bénévolat chez vous ?",
+                           "Puis-je être bénévole chez l'association en étant demandeur d’emploi ?"
+                       ],
+        "response":  "Le bénévolat est tout à fait compatible avec une inscription à France Travail, il n'a pas à être déclaré car il est non rémunéré. Mais il ne doit pas prendre tout ton temps et t'empêcher de rechercher activement un poste… Mais comme on ne vit pas d'amour et d'eau fraîche, ça devrait le faire 😉",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_085",
+        "source_id":  85,
+        "category":  "Juridique et données",
+        "intent_key":  "y_a_t_il_un_age_minimum_pour_rejoindre_l_association",
+        "canonical_question":  "Y a-t-il un âge minimum pour rejoindre l’association ?",
+        "utterances":  "J’ai moins de 18 ans, est-ce que je peux postuler ?",
+        "response":  "Il faut avoir la majorité numérique de 15 ans pour devenir membre de l'association. Ce sera demandé dans le formulaire d'inscription.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_086",
+        "source_id":  86,
+        "category":  "Apprentissage",
+        "intent_key":  "l_association_fournit_elle_des_licences_logicielles_payantes",
+        "canonical_question":  "L’association fournit-elle des licences logicielles payantes ?",
+        "utterances":  [
+                           "Les outils payants sont-ils pris en charge par l'association ?",
+                           "Donne-t-on des licences pro aux bénévoles ?"
+                       ],
+        "response":  "Pour l'instant ce n'est pas le cas, mais dès que nous pourrons nous le ferons.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_087",
+        "source_id":  87,
+        "category":  "Candidature et compte",
+        "intent_key":  "je_ne_vois_pas_les_salons_sur_discord_qui_contacter",
+        "canonical_question":  "Je ne vois pas les salons sur Discord, qui contacter ?",
+        "utterances":  [
+                           "Je viens d’arriver sur Discord mais les salons sont verrouillés.",
+                           "Comment obtenir les rôles pour accéder aux projets sur Discord ?",
+                           "Qui gère les autorisations et permissions sur Discord ?"
+                       ],
+        "response":  "Envoie nous un message à contact@guildopentech,org, nous chercherons une solution ensemble. Mais il est normal que tu n'aie pas accès à tous les salons tant que tu n'es pas dans un projet.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_088",
+        "source_id":  88,
+        "category":  "Candidature et compte",
+        "intent_key":  "qu_est_ce_que_l_erp_ben_et_comment_y_acceder",
+        "canonical_question":  "Qu’est-ce que l’ERP BEN et comment y accéder ?",
+        "utterances":  [
+                           "C’est quoi BEN ?",
+                           "Comment me connecter à l’application ou l’ERP BEN ?",
+                           "À quoi sert l’outil BEN pour les membres ?",
+                           "Où trouver le lien d’accès à BEN ?"
+                       ],
+        "response":  "BEN est l'ERP de l'association, tu n'y as accès que lorsque tu es membre, le lien se fait directement avec ton adresse email, et te donne accès aux sections de l'ERP qui te concernent (RH, Projet, Juridique etc,)",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_089",
+        "source_id":  89,
+        "category":  "Candidature et compte",
+        "intent_key":  "comment_modifier_mes_informations_de_profil_ou_mes_disponibilites",
+        "canonical_question":  "Comment modifier mes informations de profil ou mes disponibilités ?",
+        "utterances":  [
+                           "Où puis-je mettre à jour mon CV ou mes compétences ?",
+                           "Comment changer mon temps de disponibilité sur le projet ?",
+                           "Je souhaite modifier les informations de ma candidature, comment faire ?",
+                           "Où mettre à jour mon profil membre ?"
+                       ],
+        "response":  "Quand tu es membre, tu as accès à ta \"Page profil\", dans laquelle tu pourras modifier tous les éléments de ta candidature, à part tes noms, prénoms et majorité numérique.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_090",
+        "source_id":  90,
+        "category":  "Chatbot et contact",
+        "intent_key":  "comment_joindre_l_equipe_rh_de_lassociation",
+        "canonical_question":  "Comment joindre l’équipe RH de l'association ?",
+        "utterances":  [
+                           "Quelle est l’adresse email de contact pour poser une question ?",
+                           "Est-il possible de parler à un vrai membre de l’équipe ?"
+                       ],
+        "response":  "Le meilleur moyen est de passer par l'envoi d'un email à contact@guilopentech.org, Nous te répondrons dès que possible.",
+        "enabled":  true
+    },
+    {
+        "id":  "got_faq_091",
+        "source_id":  91,
+        "category":  "Partenariats et mécénat",
+        "intent_key":  "comment_devenir_partenaire_de_lassociation",
+        "canonical_question":  "Comment devenir partenaire de l'association ?",
+        "utterances":  [
+                           "Proposez-vous des partenariats avec les entreprises de la tech ?",
+                           "Une société peut-elle sponsoriser vos projets open source ?"
+                       ],
+        "response":  "Nous serons heureux d'avoir de nouveaux partenaires. Nous vous proposons d'envoyer un email à abid@guildopentech.org",
+        "enabled":  true
+    }
+  ]
+}
